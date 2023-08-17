@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .a{
+            text-align: center;
+        }
+        .b{
+            padding: 30px;
+            display: flex;
+            justify-content: space-evenly;
+            background-color: bisque;
+            margin: 100px;
+        }
+        .c{
+            display: flex;
+            justify-content: right;
+            margin: 100px;
+        }
+        .b1{
+            background-color: blue;
+           width: 100px;
+           height: 30px;
+            justify-content: center;
+
+        }
+        .b2{
+            background-color: rgb(255, 0, 0);
+           width: 100px;
+           height: 50px;
+            justify-content: center;
+           
+        }
+        .b3{
+            background-color:green;
+           width: 100px;
+           height: 50px;
+            justify-content: center;
+        }
+        table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+table{
+    margin: 100px;
+    width: 80%;
+    height: 50%;
+}
+.p{
+    background-color: red;
+    
+}
+.o{
+    background-color: blue;
+}
+.q{
+    background-color: green;
+}
+.f{
+    display: flex;
+    justify-content: center;
+}
+
+
+    </style>
+</head>
+<body>
+    <div class="a">
+        <h2>Todo Application</h2>
+    </div>
+    <div class="b">
+         <input type="text" title="Todo Title" placeholder="Todo Title">
+         <input type="text" title="Description" placeholder="Description">
+         <button class="b1">Create Todo</button>
+    </div>
+    <div class="c">
+        <button class="b2" style="color: white;">Clear Todo</button>
+        <button class="b3" style="color: white;">Mark As Compleated</button>
+    </div>
+    <table >
+        <tr>
+            <th><input type="checkbox"> </th>
+          <th>Name</th>
+          <th>Description</th> 
+          <th >Status</th>
+          <th >Action</th>
+        </tr>
+        <tr>
+            <td><input type="checkbox"></td>
+          <td >TodoList 1</td>
+          <td >This is 1st todo</td>
+          <td class="f"><button class="q" style="color: white;">Compleated</button></td>
+          <td ><button class="o" style="color: white;">Edit</button><button  class="p"  style="color: rgb(255, 255, 255);">Delete</button></td>
+        </tr>
+        <tr>
+            <td ><input type="checkbox"></td>
+          <td >TodoList 2</td>
+          <td >This is 2nd todo</td>
+          <td class="f"><button class="p" style="color: white;">pending</button></td>
+          <td ><button class="o" style="color: white;">Edit</button><button  class="p" style="color: rgb(255, 255, 255)55, 0, 0);">Delete</button></td>
+        </tr>
+        <tr>
+            <td><input type="checkbox"></td>
+          <td>TodoList 3</td>
+          <td >This is 3rd todo</td>
+          <td class="f"><button class="p" style="color: white;">pending</button></td>
+          <td  ><button class="o" style="color: rgb(241, 235, 235);">Edit</button><button  class="p"  style="color: rgb(255, 255, 255);">Delete</button></td>
+        </tr>
+      </table>
+</body>
+</html>
